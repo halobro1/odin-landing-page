@@ -1,9 +1,28 @@
-
-
 .header{
-    color: #f9faf8;
-    font-weight: 24px;
     display: flex;
-    align-items: row;
+    justify-content: space-between;
+    background-color: #1f2937;
 }
 
+.left, .links{
+    color: #f9faf8;
+    font-style: italic;
+}
+
+.left{
+    padding: 18px;
+    font: 24px;
+    font-weight: bolder;
+}
+
+.links{
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    gap: 20px
+}
+
+
+.body1{
+    display: flex;
+}
