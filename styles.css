@@ -23,7 +23,11 @@
     list-style-type: none;
     flex-direction: row;
     display: flex;
-    margin-right: 20px;
+    margin-right: 200px;
+}
+
+.li {
+    margin: 20px;
 }
 
 .body1{
@@ -43,15 +47,19 @@
 .subcontainer1{
     font-size: 48px;
     font-weight: bolder;
+    margin: 10px;
 }
 
 .subcontainer2{
     font-size: 24px;
+    margin: 10px;
 }
 
 .button1{
     font-size: 24px;
     background-color: aqua;
+    border-radius: 8px;
+    margin: 10px;
 }
 
 .card{
@@ -65,4 +73,43 @@
     height: 150px;
     display: flex;
     flex-grow: 2;
+}    
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin: 100px;
+    font-size: 48px;
+}
+
+.cardcontainers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cardcontainer1 {
+    justify-content: center;
+}
+
+.img2caption {
+    margin-right: 100px;
+    max-width: 250px;
+}
+
+.img2{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.body3 {
+    margin-top: 50px;
+    padding: 100px;
+    background-color: lightslategrey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
