@@ -88,6 +88,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-left: 100px;
 }
 
 .cardcontainer1 {
@@ -107,9 +108,27 @@
 
 .body3 {
     margin-top: 50px;
-    padding: 100px;
-    background-color: lightslategrey;
+    padding: 150px;
+    padding-left: 400px;
+    background-color: lightgrey;
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.quotetext, .famousperson{
+    font-family: 'Roboto', sans-serif;
+    max-width: 1050px;
+    justify-content: center;
+}
+
+.quotetext{
+    font-size: 48px;
+    font-style: italic;
+}
+
+.famousperson{
+    text-align: right;
+    font-weight: 900;
+    font-size: 36px;
 }
