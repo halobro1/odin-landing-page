@@ -1,2 +1,2 @@
 # odin-landing-page
-an among us
+my first landing page

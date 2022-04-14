@@ -60,6 +60,11 @@
     background-color: aqua;
     border-radius: 8px;
     margin: 10px;
+    border-width: 0px;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    width: 150px;
+    height: 50px;
 }
 
 .card{
@@ -131,4 +136,50 @@
     text-align: right;
     font-weight: 900;
     font-size: 36px;
+}
+
+.body4{
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    background-color: lightseagreen;
+    color: white;
+    padding: 100px;
+    border-radius: 16px;
+}
+
+.call-to-action{
+    font-size: 36px;
+}
+
+.caption{
+    font-size: 24px;
+}
+
+.button{
+    font-family: 'Roboto', sans-serif;
+    width: 150px;
+    height: 50px;
+    background-color: lightseagreen;
+    border-color: #f9faf8;
+    border-width: 4px;
+    border-radius: 16px;
+    color: white;
+    font-size: 20px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
