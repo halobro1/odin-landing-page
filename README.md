@@ -1,2 +1,2 @@
 # odin-landing-page
-my first landing page
+my first attempt at creating a landing page
